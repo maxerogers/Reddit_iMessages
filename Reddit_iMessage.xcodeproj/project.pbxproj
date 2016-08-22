@@ -13,6 +13,8 @@
 		AFF487851D6B84EE00FFBCA1 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487841D6B84EE00FFBCA1 /* MessagesViewController.swift */; };
 		AFF487881D6B84EE00FFBCA1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF487861D6B84EE00FFBCA1 /* MainInterface.storyboard */; };
 		AFF4878A1D6B84EE00FFBCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF487891D6B84EE00FFBCA1 /* Assets.xcassets */; };
+		AFF487961D6B850E00FFBCA1 /* RedditAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487951D6B850E00FFBCA1 /* RedditAPI.swift */; };
+		AFF487981D6B894F00FFBCA1 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487971D6B894F00FFBCA1 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AFF487871D6B84EE00FFBCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		AFF487891D6B84EE00FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF4878B1D6B84EE00FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF487951D6B850E00FFBCA1 /* RedditAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditAPI.swift; sourceTree = "<group>"; };
+		AFF487971D6B894F00FFBCA1 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				AFF487861D6B84EE00FFBCA1 /* MainInterface.storyboard */,
 				AFF487891D6B84EE00FFBCA1 /* Assets.xcassets */,
 				AFF4878B1D6B84EE00FFBCA1 /* Info.plist */,
+				AFF487951D6B850E00FFBCA1 /* RedditAPI.swift */,
+				AFF487971D6B894F00FFBCA1 /* PostTableViewCell.swift */,
 			);
 			path = MessagesExtension;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF487961D6B850E00FFBCA1 /* RedditAPI.swift in Sources */,
 				AFF487851D6B84EE00FFBCA1 /* MessagesViewController.swift in Sources */,
+				AFF487981D6B894F00FFBCA1 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
